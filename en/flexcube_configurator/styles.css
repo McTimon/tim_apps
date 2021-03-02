@@ -92,37 +92,17 @@ button {
   text-transform: uppercase;
 }
 
-/* 
-- Difference between functions and events
-- New Blueprint Nodes
-    -Sequence node
-    -Gate node
-    -Do Once node
-    -Do N node
-    
-- New data type: Arrays & array helper nodes
-    -ADD node
-    -INSERT node
-    -GET node
-    -LENGTH node
-
-- how to iterate through arrays
-
--Collisions deep dive:
-    -Simple collisions
-    -complex collision
-    -how to auto-generate collider mesh from static mesh
-    -how to add a custom modeled collider mesh
-    -some common collision problems n how to fix them
-    -new event: "on Component Hit"
-    -Collision boundaries
-    -Difference between "On Actor Begin Overlap" and "On component begin Overlap"
-    -Difference between "sweep" and "teleport"
-
--Blueprints communication: how to let different blueprints talk to one another <3 :)
-    -Direct communication
-    -Event dispatchers
-    -Blueprint interfacing (we couldn't complete this bcos of time)
-    -Blueprint casting (we're already familiar with this lol)
-
--Sneak peak/ simple way to create explosions on collision!  */
+#price-container {
+  display: flexbox;
+  align-items: center;
+  vertical-align: middle;
+  background-color: white;
+  color: black;
+  width: 60%;
+  height: 80px;
+  padding-top: 20%;
+  padding-left: 20%;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
